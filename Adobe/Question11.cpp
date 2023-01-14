@@ -23,7 +23,7 @@ public:
         if(timestamp >= currentTimeStamp){
             currentTimeStamp = timestamp;
             currentPrice = price;
-        }
+        } 
 
         while(map[pq.top().second] != pq.top().first){
             pq.pop();

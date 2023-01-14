@@ -13,7 +13,7 @@ class Solution {
                     return 0;
                 }
                 ans=1;
-            }
+            } 
         }
 
         return ans;
